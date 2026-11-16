@@ -1,8 +1,0 @@
-description: An error occurred.
-content:
-  application/json:
-    schema:
-      $ref: https://ogcincubator.github.io/bblocks-ogcapi-common/build/annotated/api/common/part1/schemas/exception/schema.yaml
-  text/html:
-    schema:
-      type: string
