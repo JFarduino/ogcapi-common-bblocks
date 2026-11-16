@@ -1,0 +1,11 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+title: Integer query parameter value
+description: Integer values SHALL be represented by a finite-length sequence of decimal
+  digits with an optional leading negative ("-") sign. Positive values are assumed
+  if the leading sign is omitted.
+type: integer
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.common.part1.schemas.queryParamValueInteger
+  register: https://jfarduino.github.io/ogcapi-common-bblocks/build/register.json
+  version: '0.1'
+  dateOfLastChange: '2026-09-16'

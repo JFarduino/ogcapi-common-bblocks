@@ -1,0 +1,39 @@
+
+
+{
+  "itemIdentifier": "ogc.api.common.part1.paths.Conformance",
+  "name": "Conformance path",
+  "abstract": "The conformance declaration (\"{root}/conformance\"), listing the conformance classes implemented by this API.",
+  "status": "under-development",
+  "dateTimeAddition": "2026-09-16T00:00:00Z",
+  "itemClass": "path",
+  "register": "ogcapi-common",
+  "version": "0.1",
+  "sources": [
+    {
+      "title": "OGC API - Common - Part 1: Core",
+      "link": "https://docs.ogc.org/is/19-072/19-072.html"
+    }
+  ],
+  "tags": [
+    "ogcapi-common",
+    "path"
+  ],
+  "shaclShapes": {},
+  "dependsOn": [
+    "ogc.api.common.part1.responses.ConformanceDeclaration",
+    "ogc.api.common.part1.responses.Exception"
+  ],
+  "license": {
+    "name": "OGC License Agreement",
+    "url": "https://www.ogc.org/license"
+  },
+  "dateOfLastChange": "2026-11-16",
+  "sourceOpenAPIDocument": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/paths/Conformance/openapi.yaml",
+  "openAPIDocument": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/paths/Conformance/openapi.yaml",
+  "sourceFiles": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/paths/Conformance/",
+  "validationPassed": true,
+  "annotatedSchema": null,
+  "gitRepository": "https://github.com/JFarduino/ogcapi-common-bblocks",
+  "gitPath": "_sources/part1/paths/Conformance"
+}

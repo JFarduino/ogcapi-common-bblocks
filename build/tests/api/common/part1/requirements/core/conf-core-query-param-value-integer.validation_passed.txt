@@ -1,0 +1,6 @@
+Validation report for ogc.api.common.part1.requirements.core - Core Requirements Class
+Generated 2026-11-16T12:06:27.077283+00:00
+=== Files ===
+Using conf-core-query-param-value-integer.yaml from test resources
+=== End Files ===
+

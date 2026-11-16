@@ -1,0 +1,21 @@
+{
+  "description": "An error occurred.",
+  "content": {
+    "application/json": {
+      "schema": {
+        "$ref": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/exception/schema.json"
+      }
+    },
+    "text/html": {
+      "schema": {
+        "type": "string"
+      }
+    }
+  },
+  "x-bblocks-metadata": {
+    "itemIdentifier": "ogc.api.common.part1.responses.Exception",
+    "register": "https://jfarduino.github.io/ogcapi-common-bblocks/build/register.json",
+    "version": "0.1",
+    "dateOfLastChange": "2026-09-16"
+  }
+}
