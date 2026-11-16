@@ -216,7 +216,7 @@ Reusable components for OpenAPI definitions for an OGC API are referenced from t
 available from the OGC Schemas Registry at
 [http://schemas.opengis.net/ogcapi/common/part1/1.0](http://schemas.opengis.net/ogcapi/common/part1/1.0)
 and as building blocks in the
-[OGC API — Common Building Blocks register](https://ogcincubator.github.io/bblocks-ogcapi-common/).
+[OGC API — Common Building Blocks register](https://jfarduino.github.io/ogcapi-common-bblocks/).
 
 Additional information on the use of OpenAPI as an API definition is provided in the
 [OGC API — Common — Users Guide](http://www.opengis.net/doc/UG/ogcapi-common/1.0#oas30-usage-section).

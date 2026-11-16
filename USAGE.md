@@ -38,6 +38,12 @@ Building Blocks can be reused by either:
 9. Enable GitHub pages in the repository settings, setting "Source" (under "Build and deployment")
    to "GitHub Actions".
 
+   Alternatively, the site can be published to a branch (`gh-pages`) instead, which keeps build output out
+   of your source branch: set `deploy: {mode: branch}` in `bblocks-config.yaml` (see the
+   [documentation](https://ogcincubator.github.io/bblocks-docs/build/github#publishing-to-a-branch)) and, once the first workflow run
+   has created the `gh-pages` branch, set "Source" to "Deploy from a branch", with branch `gh-pages` and
+   folder `/ (root)`. The `build/` directory is then not committed to your source branch.
+
 Note: building blocks subdirectories can be grouped inside other directories, like so:
 
 ```
@@ -113,9 +119,9 @@ Repository imports can be defined as an array of URLs to the output `register.js
 `bblocks-config.yaml`:
 
 * If `imports` is missing from `bblocks-config.yaml`, the
-  [main OGC Building Blocks repository](http://blocks.ogc.org/register.html) will be imported by default.
+  [main OGC Building Blocks repository](https://opengeospatial.github.io/bblocks/register.json) will be imported by default.
 * `default` can be used instead of a URL to refer to the
-  [main OGC Building Blocks repository](http://blocks.ogc.org/register.html). 
+  [main OGC Building Blocks repository](https://opengeospatial.github.io/bblocks/register.json). 
 * If `imports` is an empty array, no repositories will be imported.
 
 For example, the following will import two repositories, one of them being the main OGC Building Blocks repository:
@@ -212,13 +218,13 @@ types of validations:
 
 Inside the `tests` directory, 3 types of files will be processed:
 
-- `*.ttl`: [Turtle](https://www.w3.org/TR/turtle/) RDF files that will be validated against the SHACL rules.
-    - SHACL rules are loaded from the `shaclRules` property inside `bblock.json`. If a `rules.shacl` file is found
+- `*.ttl`: [Turtle](https://www.w3.org/TR/turtle/) RDF files that will be validated against the SHACL shapes.
+    - SHACL shapes are loaded from the `shaclShapes` property inside `bblock.json`. If a `shapes.shacl` file is found
       in the Building Block directory it will be used by default. **SHACL files must be serialized as Turtle**.
 - `*.jsonld`: JSON-LD files that will be first validated against the Building Block JSON Schema
-  and then against the SHACL rules.
+  and then against the SHACL shapes.
 - `*.json`: JSON files that will be first validated against the JSON Schema, then "semantically uplifted"
-  by embedding the Building Block's `context.jsonld`, and finally validated against the SHACL rules.
+  by embedding the Building Block's `context.jsonld`, and finally validated against the SHACL shapes.
 
 If the filename for a test resource ends in `-fail` (e.g., `missing-id-fail.json`), validation will only pass
 if the test fails (JSON SCHEMA, SHACL shapes, etc.); this allows writing negative test cases.
@@ -266,7 +272,7 @@ or
 
 ```shell
 # Process building blocks
-docker run --pull=always --rm --workdir /workspace -v "$(pwd):/workspace" \
+docker run -it --pull=always --rm --workdir /workspace -v "$(pwd):/workspace" \
   ghcr.io/opengeospatial/bblocks-postprocess  --clean true --base-url http://localhost:9090/register/
 ```
 
@@ -279,6 +285,39 @@ docker run --pull=always --rm --workdir /workspace -v "$(pwd):/workspace" \
   we use the local `http://localhost:9090/register/` URL to make the output **compatible with the
   viewer** when running locally (see below). If omitted, the value will be autodetected from the repository
   metadata.
+* `build.sh` only passes `-it` to Docker when run from a terminal, so permission prompts (for transforms and
+  plugins) can be answered. From scripts, CI or coding agents, add `--skip-permissions true` instead.
+* Any extra arguments are passed on to the postprocessor, e.g. `./build.sh --filter my.bblock.id`.
+  `build-devel.sh` runs the same build with the rolling `develop` image of the postprocessor.
+
+#### Developing against a local version of an imported register
+
+To test changes to a register that this one imports (directly or through other registers) before they are
+published:
+
+1. In the **upstream** checkout, run `./build.sh` as usual. Its `build-local/` output stays viewable in the
+   upstream's own viewer.
+2. In **this** repository, create `bblocks-config-local.yml` mapping the upstream's public URL to a local
+   path, and a `.volumes` file mounting the upstream checkout at that path (both are ignored by git):
+
+   ```yaml
+   url-mappings:
+     'https://opengeospatial.github.io/upstream-register/': '/imports/upstream-register'
+   ```
+
+   ```
+   ../upstream-register:/imports/upstream-register
+   ```
+   Map the URL this repository imports (from its `bblocks-config.yaml`), even when the upstream checkout is a
+   fork.
+3. Run `./build.sh` as usual. The postprocessor picks up `build-local/register.json` from the mapped
+   checkout whenever it is newer than the published register, and rewrites the local build's viewer URLs
+   (`http://localhost:9090/register/...`) to the mapped URL, so the same mapping resolves them.
+
+If the change is in a register imported *through* another one, rebuild each register in between with
+`./build.sh` too, and add a mapping and volume for every one of them: their published outputs were
+generated against the old upstream. Delete `bblocks-config-local.yml` (or the relevant mapping) to go back to
+the published registers.
 
 #### Building Blocks Viewer
 
