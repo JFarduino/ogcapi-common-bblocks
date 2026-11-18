@@ -18,7 +18,7 @@ description: Integer values SHALL be represented by a finite-length sequence of 
 type: integer
 x-bblocks-metadata:
   itemIdentifier: ogc.api.common.part1.schemas.queryParamValueInteger
-  register: https://jfarduino.github.io/ogcapi-common-bblocks/build/register.json
+  register: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/register.json
   version: '0.1'
   dateOfLastChange: '2026-09-16'
 
@@ -26,8 +26,8 @@ x-bblocks-metadata:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/queryParamValueInteger/schema.json)
-* JSON version: [schema.json](https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/queryParamValueInteger/schema.yaml)
+* YAML version: [schema.yaml](https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/queryParamValueInteger/schema.json)
+* JSON version: [schema.json](https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/queryParamValueInteger/schema.yaml)
 
 ## Sources
 
@@ -37,6 +37,6 @@ Links to the schema:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/JFarduino/ogcapi-common-bblocks](https://github.com/JFarduino/ogcapi-common-bblocks)
+* URL: [https://github.com/GeoLabs/ogcapi-common-all-as-bblocks](https://github.com/GeoLabs/ogcapi-common-all-as-bblocks)
 * Path: `_sources/part1/schemas/queryParamValueInteger`
 

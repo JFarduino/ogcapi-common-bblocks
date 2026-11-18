@@ -1,5 +1,5 @@
 {
-  "@context": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/exception/context.jsonld",
+  "@context": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/exception/context.jsonld",
   "type": "http://www.opengis.net/def/exceptions/ogcapi-common-1/1.0/no-such-resource",
   "title": "Resource not found",
   "status": 404,

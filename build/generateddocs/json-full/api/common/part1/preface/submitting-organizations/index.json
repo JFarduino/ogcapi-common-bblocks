@@ -26,10 +26,10 @@
     "url": "https://www.ogc.org/license"
   },
   "dateOfLastChange": "2026-11-16",
-  "sourceFiles": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/preface/submitting-organizations/",
+  "sourceFiles": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/preface/submitting-organizations/",
   "validationPassed": true,
   "description": "The following organizations submitted this Document to the Open Geospatial Consortium (OGC):\n\n- Ecere Corporation\n- Heazeltech LLC\n- Hexagon\n- Interactive Instruments GmbH\n- U.K. Met Office\n- Universitat Aut\u00f2noma de Barcelona (CREAF)\n- U.S. Army Geospatial Center\n- U.S. Geological Survey\n- U.S. National Aeronautics and Space Administration (NASA)\n- U.S. National Geospatial-Intelligence Agency (NGA)\n",
   "annotatedSchema": null,
-  "gitRepository": "https://github.com/JFarduino/ogcapi-common-bblocks",
+  "gitRepository": "https://github.com/GeoLabs/ogcapi-common-all-as-bblocks",
   "gitPath": "_sources/part1/preface/submitting-organizations"
 }

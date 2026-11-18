@@ -29,12 +29,12 @@
     "url": "https://www.ogc.org/license"
   },
   "dateOfLastChange": "2026-11-16",
-  "sourceOpenAPIDocument": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/api/openapi.yaml",
-  "openAPIDocument": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/api/openapi.yaml",
-  "sourceFiles": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/api/",
+  "sourceOpenAPIDocument": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/api/openapi.yaml",
+  "openAPIDocument": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/api/openapi.yaml",
+  "sourceFiles": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/api/",
   "validationPassed": true,
   "description": "OGC API - Common is a multi-part standard that documents the set of common practices and\nshared requirements that have emerged from the development of Resource Oriented Architectures\nand Web APIs within the OGC. Standards developers will use these building-blocks in the\nconstruction of other OGC Standards that relate to Web APIs. The result is a modular suite\nof coherent API standards which can be adapted by a system designer for the unique requirements\nof their system. As such, this OGC API Standard serves as the \"OWS Common\" standard for\nresource-oriented OGC APIs.\n\nConsistent with the architecture of the Web, this specification uses a resource architecture\nthat conforms to principles of Representational State Transfer (REST).\n\nThis OGC API Standard establishes a common pattern that is based on OpenAPI.\n\nThe landing page ([`/`](bblocks://ogc.api.common.part1.paths.LandingPage)) and conformance\ndeclaration ([`/conformance`](bblocks://ogc.api.common.part1.paths.Conformance)) operations are\nreused from their own building blocks; only the `/api` (API definition) operation is declared\ndirectly in this document.\n",
   "annotatedSchema": null,
-  "gitRepository": "https://github.com/JFarduino/ogcapi-common-bblocks",
+  "gitRepository": "https://github.com/GeoLabs/ogcapi-common-all-as-bblocks",
   "gitPath": "_sources/part1/api"
 }

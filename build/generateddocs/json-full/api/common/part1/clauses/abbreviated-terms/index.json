@@ -26,10 +26,10 @@
     "url": "https://www.ogc.org/license"
   },
   "dateOfLastChange": "2026-11-16",
-  "sourceFiles": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/clauses/abbreviated-terms/",
+  "sourceFiles": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/clauses/abbreviated-terms/",
   "validationPassed": true,
   "description": "| Abbreviation | Term |\n|---|---|\n| API | Application Programming Interface |\n| CORS | Cross-Origin Resource Sharing |\n| HTTP | Hypertext Transfer Protocol |\n| HTTPS | Hypertext Transfer Protocol Secure |\n| IANA | Internet Assigned Numbers Authority |\n| OGC | Open Geospatial Consortium |\n| URI | Uniform Resource Identifier |\n| URL | Uniform Resource Locator |\n| YAML | YAML Ain\u2019t Markup Language |\n",
   "annotatedSchema": null,
-  "gitRepository": "https://github.com/JFarduino/ogcapi-common-bblocks",
+  "gitRepository": "https://github.com/GeoLabs/ogcapi-common-all-as-bblocks",
   "gitPath": "_sources/part1/clauses/abbreviated-terms"
 }

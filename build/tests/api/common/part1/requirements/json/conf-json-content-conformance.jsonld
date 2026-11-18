@@ -1,5 +1,5 @@
 {
-  "@context": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/requirements/json/context.jsonld",
+  "@context": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/requirements/json/context.jsonld",
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-common-1/1.0/req/core",
     "http://www.opengis.net/spec/ogcapi-common-1/1.0/req/landing-page",

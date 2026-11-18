@@ -29,11 +29,11 @@
     "url": "https://www.ogc.org/license"
   },
   "dateOfLastChange": "2026-11-16",
-  "sourceOpenAPIDocument": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/paths/Conformance/openapi.yaml",
-  "openAPIDocument": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/paths/Conformance/openapi.yaml",
-  "sourceFiles": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/paths/Conformance/",
+  "sourceOpenAPIDocument": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/paths/Conformance/openapi.yaml",
+  "openAPIDocument": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/paths/Conformance/openapi.yaml",
+  "sourceFiles": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/paths/Conformance/",
   "validationPassed": true,
   "annotatedSchema": null,
-  "gitRepository": "https://github.com/JFarduino/ogcapi-common-bblocks",
+  "gitRepository": "https://github.com/GeoLabs/ogcapi-common-all-as-bblocks",
   "gitPath": "_sources/part1/paths/Conformance"
 }

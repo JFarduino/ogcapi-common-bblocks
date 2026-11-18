@@ -20,20 +20,20 @@
     rdfs:label "Abstract Test Suite" ;
     dct:abstract "Annex A of OGC API - Common - Part 1: Core: conformance classes and abstract tests. The tests are defined in the requirements classes (abstract-tests); this block lays out the annex."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/annexes/ats/index.md> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.annexes.ats> ],
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.annexes.ats> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/annexes/ats/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/annexes/ats/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/annexes/ats/index.md> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#_abstract_test_suite_normative> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Abstract Test Suite" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "annex",
         "ogcapi-common",
         "standard" ;
@@ -48,25 +48,25 @@
     dct:abstract "Bibliography of OGC API - Common - Part 1: Core (informative references)."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/annexes/bibliography/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/annexes/bibliography/index.md> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/annexes/bibliography/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.annexes.bibliography> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.annexes.bibliography> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/annexes/bibliography/index.md> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#_d0c78460-9a13-4eaa-9c13-9bbfd3fedbc7> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Bibliography" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "bibliography",
         "ogcapi-common",
         "standard" ;
     prof:hasResource [ dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/annexes/bibliography/references.yaml> ;
-            prof:hasRole <https://jfarduino.github.io/references> ] ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/annexes/bibliography/references.yaml> ;
+            prof:hasRole <https://geolabs.github.io/references> ] ;
     bblocks:status <http://www.opengis.net/def/status/stable> ;
     bblocks:validationPassed true .
 
@@ -77,20 +77,20 @@
     rdfs:label "Backus-Naur Forms" ;
     dct:abstract "Annex D of OGC API - Common - Part 1: Core: ABNF for URIs (from IETF RFC 3986)."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/annexes/bnf/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/annexes/bnf/index.md> ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/annexes/bnf/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/annexes/bnf/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.annexes.bnf> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.annexes.bnf> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#bnf-annex> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Backus-Naur Forms" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "annex",
         "ogcapi-common",
         "standard" ;
@@ -105,19 +105,19 @@
     dct:abstract "Annex B of OGC API - Common - Part 1: Core: example landing pages, conformance declarations, API definitions and service metadata."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.annexes.examples> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/annexes/examples/index.md> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.annexes.examples> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/annexes/examples/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/annexes/examples/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/annexes/examples/index.md> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#_examples_informative> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Examples (Informative)" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "annex",
         "ogcapi-common",
         "standard" ;
@@ -131,20 +131,20 @@
     rdfs:label "Glossary" ;
     dct:abstract "Annex C of OGC API - Common - Part 1: Core: glossary of ModSpec terms."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/annexes/glossary/index.json> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.annexes.glossary> ],
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.annexes.glossary> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/annexes/glossary/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/annexes/glossary/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/annexes/glossary/index.md> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#Glossary> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Glossary" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "annex",
         "ogcapi-common",
         "standard" ;
@@ -158,20 +158,20 @@
     rdfs:label "Revision History" ;
     dct:abstract "Annex F of OGC API - Common - Part 1: Core: revision history."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.annexes.revision-history> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/annexes/revision-history/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.annexes.revision-history> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/annexes/revision-history/index.md> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/annexes/revision-history/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/annexes/revision-history/index.md> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#_revision_history> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Revision History" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "annex",
         "ogcapi-common",
         "standard" ;
@@ -185,20 +185,20 @@
     rdfs:label "OGC Web API Guidelines" ;
     dct:abstract "Annex E of OGC API - Common - Part 1: Core: how the Standard addresses the OGC Web API Guidelines."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/annexes/web-api-guidelines/index.md> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/annexes/web-api-guidelines/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.annexes.web-api-guidelines> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/annexes/web-api-guidelines/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.annexes.web-api-guidelines> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/annexes/web-api-guidelines/index.md> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#_ogc_web_api_guidelines> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "OGC Web API Guidelines" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "annex",
         "ogcapi-common",
         "standard" ;
@@ -212,20 +212,20 @@
     rdfs:label "OGC API - Common" ;
     dct:abstract "OGC API - Common OpenAPI-based building block, combining the landing page, conformance declaration and API definition resources into a single OpenAPI document."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-09-16T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.api> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/api/index.json> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/api/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.api> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/api/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/api/index.md> ] ;
     dct:hasVersion "0.1" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "OGC API - Common" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "ogcapi-common" ;
     bblocks:dependsOn <bblocks://ogc.api.common.part1.paths.Conformance>,
         <bblocks://ogc.api.common.part1.paths.LandingPage>,
@@ -240,20 +240,20 @@
     rdfs:label "Abbreviated terms" ;
     dct:abstract "Clause 5 of OGC API - Common - Part 1: Core: abbreviated terms."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/clauses/abbreviated-terms/index.md> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/clauses/abbreviated-terms/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/clauses/abbreviated-terms/index.md> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.clauses.abbreviated-terms> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/clauses/abbreviated-terms/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.clauses.abbreviated-terms> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#_abbreviated_terms> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Abbreviated terms" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "clause",
         "ogcapi-common",
         "standard" ;
@@ -267,20 +267,20 @@
     rdfs:label "Conformance" ;
     dct:abstract "Clause 2 of OGC API - Common - Part 1: Core: conformance classes defined by the Standard and how conformance is tested."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/clauses/conformance/index.json> ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/clauses/conformance/index.md> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.clauses.conformance> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/clauses/conformance/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.clauses.conformance> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/clauses/conformance/index.json> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#_conformance> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Conformance" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "clause",
         "ogcapi-common",
         "standard" ;
@@ -295,19 +295,19 @@
     dct:abstract "Clause 6 of OGC API - Common - Part 1: Core: Web API fundamentals, identifiers, links, link relations, use of HTTPS and API definitions."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/clauses/conventions/index.json> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.clauses.conventions> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/clauses/conventions/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/clauses/conventions/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/clauses/conventions/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.clauses.conventions> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#_conventions> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Conventions" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "clause",
         "ogcapi-common",
         "standard" ;
@@ -321,20 +321,20 @@
     rdfs:label "Encoding Requirements Classes" ;
     dct:abstract "Clause 10 of OGC API - Common - Part 1: Core: overview of the HTML and JSON encoding requirements classes, which are its subclauses 10.2 and 10.3."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.clauses.encodings> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/clauses/encodings/index.json> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/clauses/encodings/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/clauses/encodings/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/clauses/encodings/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.clauses.encodings> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#rc_encoding-section> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Encoding Requirements Classes" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "clause",
         "ogcapi-common",
         "standard" ;
@@ -349,19 +349,19 @@
     dct:abstract "Clause 12 of OGC API - Common - Part 1: Core: media types for responses, OpenAPI definitions and Problem Details reports."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/clauses/media-types/index.json> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.clauses.media-types> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/clauses/media-types/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/clauses/media-types/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/clauses/media-types/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.clauses.media-types> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#mediatypes-section> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Media Types" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "clause",
         "ogcapi-common",
         "standard" ;
@@ -376,19 +376,19 @@
     dct:abstract "Clause 7 of OGC API - Common - Part 1: Core: evolution from OGC Web Services, modular APIs and the ways clients use OGC APIs."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/clauses/overview/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/clauses/overview/index.md> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/clauses/overview/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.clauses.overview> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.clauses.overview> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/clauses/overview/index.md> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#overview> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Overview" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "clause",
         "ogcapi-common",
         "standard" ;
@@ -403,25 +403,25 @@
     dct:abstract "Clause 3 of OGC API - Common - Part 1: Core: normative references (the informative ones are in the Bibliography)."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/clauses/references/index.md> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/clauses/references/index.md> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/clauses/references/index.json> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/clauses/references/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.clauses.references> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.clauses.references> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#_755e56fb-0099-46f0-9932-c8ee0d7b2278> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Normative references" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "clause",
         "ogcapi-common",
         "standard" ;
     prof:hasResource [ dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/clauses/references/references.yaml> ;
-            prof:hasRole <https://jfarduino.github.io/references> ] ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/clauses/references/references.yaml> ;
+            prof:hasRole <https://geolabs.github.io/references> ] ;
     bblocks:status <http://www.opengis.net/def/status/stable> ;
     bblocks:validationPassed true .
 
@@ -433,19 +433,19 @@
     dct:abstract "Clause 1 of OGC API - Common - Part 1: Core: the scope of the Standard."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/clauses/scope/index.md> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/clauses/scope/index.md> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.clauses.scope> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.clauses.scope> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/clauses/scope/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/clauses/scope/index.json> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#_scope> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Scope" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "clause",
         "ogcapi-common",
         "standard" ;
@@ -460,25 +460,25 @@
     dct:abstract "Clause 4 of OGC API - Common - Part 1: Core: terms and definitions."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/clauses/terms/index.md> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/clauses/terms/index.md> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/clauses/terms/index.json> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/clauses/terms/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.clauses.terms> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.clauses.terms> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#_terms_and_definitions> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Terms and definitions" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "clause",
         "ogcapi-common",
         "standard" ;
     prof:hasResource [ dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/clauses/terms/terms.yaml> ;
-            prof:hasRole <https://jfarduino.github.io/terms> ] ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/clauses/terms/terms.yaml> ;
+            prof:hasRole <https://geolabs.github.io/terms> ] ;
     bblocks:status <http://www.opengis.net/def/status/stable> ;
     bblocks:validationPassed true .
 
@@ -489,20 +489,20 @@
     rdfs:label "Preface" ;
     dct:abstract "Preface of OGC API - Common - Part 1: Core (preface section)."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/preface/preface/index.json> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.preface.preface> ],
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.preface.preface> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/preface/preface/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/preface/preface/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/preface/preface/index.json> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#preface-section> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Preface" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "ogcapi-common",
         "preface",
         "standard" ;
@@ -516,20 +516,20 @@
     rdfs:label "Security considerations" ;
     dct:abstract "Security considerations of OGC API - Common - Part 1: Core (preface section)."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.preface.security-considerations> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/preface/security-considerations/index.json> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/preface/security-considerations/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.preface.security-considerations> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/preface/security-considerations/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/preface/security-considerations/index.md> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#security-considerations-section> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Security considerations" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "ogcapi-common",
         "preface",
         "standard" ;
@@ -544,19 +544,19 @@
     dct:abstract "Submitters of OGC API - Common - Part 1: Core (preface section)."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.preface.submitters> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.preface.submitters> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/preface/submitters/index.json> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/preface/submitters/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/preface/submitters/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/preface/submitters/index.md> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#submitters-section> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Submitters" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "ogcapi-common",
         "preface",
         "standard" ;
@@ -570,20 +570,20 @@
     rdfs:label "Submitting Organizations" ;
     dct:abstract "Submitting Organizations of OGC API - Common - Part 1: Core (preface section)."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.preface.submitting-organizations> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/preface/submitting-organizations/index.md> ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/preface/submitting-organizations/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.preface.submitting-organizations> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/preface/submitting-organizations/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/preface/submitting-organizations/index.json> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#_f5459b02-6a6f-4114-9239-15bc3e0dfd87> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Submitting Organizations" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "ogcapi-common",
         "preface",
         "standard" ;
@@ -597,27 +597,27 @@
     rdfs:label "Requirements Class “HTML”" ;
     dct:abstract "Encoding requirements class \"HTML\": HTML 5 representations of the Landing Page and Conformance resources."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.requirements.html> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/requirements/html/index.json> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/requirements/html/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.requirements.html> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/requirements/html/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/requirements/html/index.md> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#rc_html-section> ;
     modspec:class <http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/html> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Requirements Class “HTML”" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "ogcapi-common",
         "requirements-class",
         "standard" ;
     prof:hasResource [ dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/requirements/html/requirements.yaml> ;
-            prof:hasRole <https://jfarduino.github.io/requirements> ] ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/requirements/html/requirements.yaml> ;
+            prof:hasRole <https://geolabs.github.io/requirements> ] ;
     bblocks:dependsOn <bblocks://ogc.api.common.part1.requirements.core>,
         <bblocks://ogc.api.common.part1.requirements.landing-page> ;
     bblocks:status <http://www.opengis.net/def/status/stable> ;
@@ -630,39 +630,39 @@
     rdfs:label "Requirements Class “JSON”" ;
     dct:abstract "Encoding requirements class \"JSON\": JSON representations of the Landing Page and Conformance resources. The schema of this building block is the JSON payload of these resources, so that the test resources of the class are validated against it."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.requirements.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/requirements/json/index.md> ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/requirements/json/index.md> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/requirements/json/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/requirements/json/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.requirements.json> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#rc_json-section> ;
     modspec:class <http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/json> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Requirements Class “JSON”" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "ogcapi-common",
         "requirements-class",
         "standard" ;
     prof:hasResource [ dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/requirements/json/requirements.yaml> ;
-            prof:hasRole <https://jfarduino.github.io/requirements> ],
-        [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
-            dct:format "application/ld+json" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/requirements/json/context.jsonld> ;
-            prof:hasRole role:mapping ],
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/requirements/json/requirements.yaml> ;
+            prof:hasRole <https://geolabs.github.io/requirements> ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/requirements/json/schema.json> ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/requirements/json/schema.json> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/requirements/json/schema.yaml> ;
-            prof:hasRole role:schema ] ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/requirements/json/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
+            dct:format "application/ld+json" ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/requirements/json/context.jsonld> ;
+            prof:hasRole role:mapping ] ;
     bblocks:dependsOn <bblocks://ogc.api.common.part1.requirements.core>,
         <bblocks://ogc.api.common.part1.requirements.landing-page>,
         <bblocks://ogc.api.common.part1.schemas.confClasses>,
@@ -678,26 +678,26 @@
     dct:abstract "Requirements class \"OpenAPI 3.0\": requirements for APIs that are self-documented using an OpenAPI 3.0 definition."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/requirements/oas30/index.json> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/requirements/oas30/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/requirements/oas30/index.md> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/requirements/oas30/index.md> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.requirements.oas30> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.requirements.oas30> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#rc_oas30-section> ;
     modspec:class <http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/oas30> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "OpenAPI 3.0 Requirements Class" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "ogcapi-common",
         "requirements-class",
         "standard" ;
     prof:hasResource [ dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/requirements/oas30/requirements.yaml> ;
-            prof:hasRole <https://jfarduino.github.io/requirements> ] ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/requirements/oas30/requirements.yaml> ;
+            prof:hasRole <https://geolabs.github.io/requirements> ] ;
     bblocks:dependsOn <bblocks://ogc.api.common.part1.requirements.core>,
         <bblocks://ogc.api.common.part1.requirements.landing-page>,
         <bblocks://ogc.api.common.part1.responses.Exception> ;
@@ -754,20 +754,20 @@
 
 <https://docs.ogc.org/is/19-072/19-072.html#submitters-section> rdfs:label "OGC 19-072 — OGC API - Common - Part 1: Core — Submitters" .
 
-<https://jfarduino.github.io/ogcapi-common-bblocks/build/bblocks.ttl> a prov:Entity ;
+<https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/bblocks.ttl> a prov:Entity ;
     dct:format "text/turtle" ;
-    prov:wasAttributedTo _:Nfe284db6ca9d4282bfd969c30075644c ;
+    prov:wasAttributedTo _:N5da52e9940984a27b318080299e17d6d ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            prov:endedAtTime "2026-11-16T12:06:28.984960"^^xsd:dateTime ;
-            prov:startedAtTime "2026-11-16T12:06:28.830628"^^xsd:dateTime ;
+            prov:endedAtTime "2026-11-18T14:14:48.230181"^^xsd:dateTime ;
+            prov:startedAtTime "2026-11-18T14:14:47.904375"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
                     dct:format "application/json" ;
-                    dct:hasVersion "git:d5716a35f0a22c3e49ef347083a4eb9c8d466055" ;
-                    rdfs:seeAlso <https://jfarduino.github.io/ogcapi-common-bblocks/build/register.json> ],
+                    dct:hasVersion "git:129ca0dd7b37ed1cc6d9b775d79e8c7ca9a4849d" ;
+                    rdfs:seeAlso <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/register.json> ],
                 [ a prov:Entity ;
                     dct:format "application/yaml" ;
                     rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ] ;
-            prov:wasAssociatedWith _:Nfe284db6ca9d4282bfd969c30075644c ] .
+            prov:wasAssociatedWith _:N5da52e9940984a27b318080299e17d6d ] .
 
 <bblocks://ogc.api.common.part1.responses.ConformanceDeclaration> a skos:Concept,
         dcat:Dataset,
@@ -776,29 +776,29 @@
     rdfs:label "ConformanceDeclaration response" ;
     dct:abstract "The response for the OGC API conformance declaration resource."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-09-16T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.responses.ConformanceDeclaration> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/responses/ConformanceDeclaration/index.md> ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/responses/ConformanceDeclaration/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.responses.ConformanceDeclaration> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/responses/ConformanceDeclaration/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/responses/ConformanceDeclaration/index.json> ] ;
     dct:hasVersion "0.1" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "ConformanceDeclaration response" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "ogcapi-common",
         "response" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/responses/ConformanceDeclaration/schema.yaml> ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/responses/ConformanceDeclaration/schema.yaml> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/responses/ConformanceDeclaration/schema.json> ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/responses/ConformanceDeclaration/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.api.common.part1.schemas.confClasses> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -811,29 +811,29 @@
     rdfs:label "LandingPage response" ;
     dct:abstract "The response for the OGC API landing page resource."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-09-16T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/responses/LandingPage/index.json> ],
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.responses.LandingPage> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/responses/LandingPage/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/responses/LandingPage/index.md> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.responses.LandingPage> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/responses/LandingPage/index.md> ] ;
     dct:hasVersion "0.1" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "LandingPage response" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "ogcapi-common",
         "response" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/responses/LandingPage/schema.json> ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/responses/LandingPage/schema.json> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/responses/LandingPage/schema.yaml> ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/responses/LandingPage/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.api.common.part1.schemas.landingPage> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -846,34 +846,34 @@
     rdfs:label "Exception schema" ;
     dct:abstract "This building block corresponds to the schema for an OGC API Common exception"^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2025-10-23T22:40:00+01:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/schemas/exception/index.json> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.schemas.exception> ],
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.schemas.exception> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/schemas/exception/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/schemas/exception/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/schemas/exception/index.md> ] ;
     dct:hasVersion "0.1" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Exception schema" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "ogcapi-common" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/exception/schema.json> ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/exception/schema.json> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
             dct:format "application/ld+json" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/exception/context.jsonld> ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/exception/context.jsonld> ;
             prof:hasRole role:mapping ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/exception/schema.yaml> ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/exception/schema.yaml> ;
             prof:hasRole role:schema ] ;
-    bblocks:hasSourceJsonLdContext <https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/schemas/exception/context.jsonld> ;
+    bblocks:hasSourceJsonLdContext <https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/schemas/exception/context.jsonld> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
 
@@ -885,34 +885,34 @@
     dct:abstract "This building block corresponds to the schema for an OGC API Common link"^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2025-10-23T22:40:00+01:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/schemas/link/index.md> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/schemas/link/index.md> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.schemas.link> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.schemas.link> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/schemas/link/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/schemas/link/index.json> ] ;
     dct:hasVersion "0.1" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html> ;
     rdfs:seeAlso <bblocks://ogc.ogc-utils.json-link> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Link schema" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "ogcapi-common" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/link/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/link/schema.yaml> ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/link/schema.yaml> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
             dct:format "application/ld+json" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/link/context.jsonld> ;
-            prof:hasRole role:mapping ] ;
-    bblocks:hasSourceJsonLdContext <https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/schemas/link/context.jsonld> ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/link/context.jsonld> ;
+            prof:hasRole role:mapping ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/link/schema.json> ;
+            prof:hasRole role:schema ] ;
+    bblocks:hasSourceJsonLdContext <https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/schemas/link/context.jsonld> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
 
@@ -923,30 +923,30 @@
     rdfs:label "Boolean query parameter value" ;
     dct:abstract "The encoding of a boolean query parameter value: the lowercase strings \"true\" and \"false\"."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-09-16T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/schemas/queryParamValueBoolean/index.json> ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/schemas/queryParamValueBoolean/index.md> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.schemas.queryParamValueBoolean> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/schemas/queryParamValueBoolean/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.schemas.queryParamValueBoolean> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/schemas/queryParamValueBoolean/index.json> ] ;
     dct:hasVersion "0.1" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Boolean query parameter value" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "datatype",
         "ogcapi-common",
         "query-parameter" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/queryParamValueBoolean/schema.json> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/queryParamValueBoolean/schema.yaml> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/queryParamValueBoolean/schema.yaml> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/queryParamValueBoolean/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
@@ -959,29 +959,29 @@
     dct:abstract "The encoding of a decimal query parameter value: decimal digits separated by a period as a decimal indicator."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-09-16T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.schemas.queryParamValueDecimal> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.schemas.queryParamValueDecimal> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/schemas/queryParamValueDecimal/index.md> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/schemas/queryParamValueDecimal/index.md> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/schemas/queryParamValueDecimal/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/schemas/queryParamValueDecimal/index.json> ] ;
     dct:hasVersion "0.1" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Decimal query parameter value" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "datatype",
         "ogcapi-common",
         "query-parameter" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/queryParamValueDecimal/schema.json> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/queryParamValueDecimal/schema.yaml> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/queryParamValueDecimal/schema.yaml> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/queryParamValueDecimal/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
@@ -994,29 +994,29 @@
     dct:abstract "The encoding of a double (exponential-format) query parameter value: a decimal mantissa followed, optionally, by an integer exponent."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-09-16T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/schemas/queryParamValueDouble/index.md> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/schemas/queryParamValueDouble/index.md> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/schemas/queryParamValueDouble/index.json> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/schemas/queryParamValueDouble/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.schemas.queryParamValueDouble> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.schemas.queryParamValueDouble> ] ;
     dct:hasVersion "0.1" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Double query parameter value" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "datatype",
         "ogcapi-common",
         "query-parameter" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/queryParamValueDouble/schema.json> ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/queryParamValueDouble/schema.json> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/queryParamValueDouble/schema.yaml> ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/queryParamValueDouble/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
@@ -1028,30 +1028,30 @@
     rdfs:label "Integer query parameter value" ;
     dct:abstract "The encoding of an integer query parameter value: a finite-length sequence of decimal digits with an optional leading negative sign."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-09-16T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/schemas/queryParamValueInteger/index.md> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.schemas.queryParamValueInteger> ],
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.schemas.queryParamValueInteger> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/schemas/queryParamValueInteger/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/schemas/queryParamValueInteger/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/schemas/queryParamValueInteger/index.md> ] ;
     dct:hasVersion "0.1" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Integer query parameter value" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "datatype",
         "ogcapi-common",
         "query-parameter" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/queryParamValueInteger/schema.yaml> ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/queryParamValueInteger/schema.yaml> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/queryParamValueInteger/schema.json> ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/queryParamValueInteger/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
@@ -1064,29 +1064,29 @@
     dct:abstract "The encoding of a query parameter value that is a delimited list of values, one of the two ways OGC API - Common allows passing more than one value for a parameter."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-09-16T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.schemas.queryParamValueList> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/schemas/queryParamValueList/index.md> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.schemas.queryParamValueList> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/schemas/queryParamValueList/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/schemas/queryParamValueList/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/schemas/queryParamValueList/index.md> ] ;
     dct:hasVersion "0.1" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Delimited list query parameter value" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "datatype",
         "ogcapi-common",
         "query-parameter" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/queryParamValueList/schema.json> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/queryParamValueList/schema.yaml> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/queryParamValueList/schema.yaml> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/queryParamValueList/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
@@ -1098,20 +1098,20 @@
     rdfs:label "Conformance path" ;
     dct:abstract "The conformance declaration (\"{root}/conformance\"), listing the conformance classes implemented by this API."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-09-16T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/paths/Conformance/index.md> ],
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.paths.Conformance> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/paths/Conformance/index.json> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.paths.Conformance> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/paths/Conformance/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/paths/Conformance/index.md> ] ;
     dct:hasVersion "0.1" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Conformance path" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "ogcapi-common",
         "path" ;
     bblocks:dependsOn <bblocks://ogc.api.common.part1.responses.ConformanceDeclaration>,
@@ -1126,20 +1126,20 @@
     rdfs:label "LandingPage path" ;
     dct:abstract "The OGC API landing page (\"{root}/\"), the single starting point for discovering the resources exposed by the API."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-09-16T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/paths/LandingPage/index.md> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/paths/LandingPage/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/paths/LandingPage/index.md> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.paths.LandingPage> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/paths/LandingPage/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.paths.LandingPage> ] ;
     dct:hasVersion "0.1" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "LandingPage path" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "ogcapi-common",
         "path" ;
     bblocks:dependsOn <bblocks://ogc.api.common.part1.responses.Exception>,
@@ -1154,27 +1154,27 @@
     rdfs:label "Landing Page Requirements Class" ;
     dct:abstract "Requirements class \"Landing Page\": the landing page, the API definition and the conformance declaration resources of an OGC Web API."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/requirements/landing-page/index.json> ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/requirements/landing-page/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/requirements/landing-page/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.requirements.landing-page> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/requirements/landing-page/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.requirements.landing-page> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#rc_landing-page-section> ;
     modspec:class <http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/landing-page> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Landing Page Requirements Class" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "ogcapi-common",
         "requirements-class",
         "standard" ;
     prof:hasResource [ dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/requirements/landing-page/requirements.yaml> ;
-            prof:hasRole <https://jfarduino.github.io/requirements> ] ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/requirements/landing-page/requirements.yaml> ;
+            prof:hasRole <https://geolabs.github.io/requirements> ] ;
     bblocks:dependsOn <bblocks://ogc.api.common.part1.paths.Conformance>,
         <bblocks://ogc.api.common.part1.paths.LandingPage>,
         <bblocks://ogc.api.common.part1.requirements.core>,
@@ -1190,34 +1190,34 @@
     rdfs:label "Conformance Classes schema" ;
     dct:abstract "This building block corresponds to the schema for an OGC API Common confClasses"^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2025-10-23T22:40:00+01:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/schemas/confClasses/index.md> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/schemas/confClasses/index.json> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/schemas/confClasses/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/schemas/confClasses/index.md> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.schemas.confClasses> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.schemas.confClasses> ] ;
     dct:hasVersion "0.1" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Conformance Classes schema" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "ogcapi-common" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/confClasses/schema.json> ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/confClasses/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/confClasses/schema.yaml> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
             dct:format "application/ld+json" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/confClasses/context.jsonld> ;
-            prof:hasRole role:mapping ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/confClasses/schema.yaml> ;
-            prof:hasRole role:schema ] ;
-    bblocks:hasSourceJsonLdContext <https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/schemas/confClasses/context.jsonld> ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/confClasses/context.jsonld> ;
+            prof:hasRole role:mapping ] ;
+    bblocks:hasSourceJsonLdContext <https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/schemas/confClasses/context.jsonld> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
 
@@ -1229,34 +1229,34 @@
     dct:abstract "This building block corresponds to the schema for an OGC API Common landingPage"^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2025-10-23T22:40:00+01:00"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/schemas/landingPage/index.json> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.schemas.landingPage> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/schemas/landingPage/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/schemas/landingPage/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/schemas/landingPage/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.schemas.landingPage> ] ;
     dct:hasVersion "0.1" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Landing Page schema" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "ogcapi-common" ;
-    prof:hasResource [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
-            dct:format "application/ld+json" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/landingPage/context.jsonld> ;
-            prof:hasRole role:mapping ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+    prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/landingPage/schema.json> ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/landingPage/schema.json> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/landingPage/schema.yaml> ;
-            prof:hasRole role:schema ] ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/landingPage/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
+            dct:format "application/ld+json" ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/landingPage/context.jsonld> ;
+            prof:hasRole role:mapping ] ;
     bblocks:dependsOn <bblocks://ogc.api.common.part1.schemas.link> ;
-    bblocks:hasSourceJsonLdContext <https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/schemas/landingPage/context.jsonld> ;
+    bblocks:hasSourceJsonLdContext <https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/schemas/landingPage/context.jsonld> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
 
@@ -1268,26 +1268,26 @@
     dct:abstract "Requirements class \"Core\": protocol-level conventions applicable to all OGC Web APIs - use of HTTP 1.1, HTTP status codes, query parameter names and values, web caching, cross-origin requests, string internationalization, resource encodings and parameter encoding."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-11-10T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.requirements.core> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/requirements/core/index.md> ],
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.requirements.core> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/requirements/core/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/requirements/core/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/requirements/core/index.md> ] ;
     dct:hasVersion "1.0.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html#rc_core-section> ;
     modspec:class <http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/core> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Core Requirements Class" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "ogcapi-common",
         "requirements-class",
         "standard" ;
     prof:hasResource [ dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/requirements/core/requirements.yaml> ;
-            prof:hasRole <https://jfarduino.github.io/requirements> ] ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/requirements/core/requirements.yaml> ;
+            prof:hasRole <https://geolabs.github.io/requirements> ] ;
     bblocks:dependsOn <bblocks://ogc.api.common.part1.schemas.queryParamValueBoolean>,
         <bblocks://ogc.api.common.part1.schemas.queryParamValueDecimal>,
         <bblocks://ogc.api.common.part1.schemas.queryParamValueDouble>,
@@ -1303,29 +1303,29 @@
     rdfs:label "Exception response" ;
     dct:abstract "An RFC 7807 \"Problem Details\" error response, as recommended by OGC API - Common for any error situation."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-09-16T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/json-full/api/common/part1/responses/Exception/index.json> ],
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/bblock/ogc.api.common.part1.responses.Exception> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/build/generateddocs/markdown/api/common/part1/responses/Exception/index.md> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://jfarduino.github.io/ogcapi-common-bblocks/bblock/ogc.api.common.part1.responses.Exception> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/markdown/api/common/part1/responses/Exception/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/generateddocs/json-full/api/common/part1/responses/Exception/index.json> ] ;
     dct:hasVersion "0.1" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
     dct:modified "2026-11-16"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/19-072/19-072.html> ;
-    skos:inScheme <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:inScheme <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     skos:prefLabel "Exception response" ;
-    skos:topConceptOf <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
+    skos:topConceptOf <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
     dcat:keyword "ogcapi-common",
         "response" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/responses/Exception/schema.yaml> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/responses/Exception/schema.json> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/responses/Exception/schema.json> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/responses/Exception/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.api.common.part1.schemas.exception> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -1338,7 +1338,7 @@
         "OGC API - Common - Part 1: Core, Requirement /req/core/query-param-value-integer",
         "OGC API - Common - Part 1: Core, Requirements /req/core/query-param-list-delimiter, /req/core/query-param-list-escape, /req/core/query-param-list-empty" .
 
-<https://jfarduino.github.io/ogcapi-common-bblocks/> a skos:ConceptScheme,
+<https://geolabs.github.io/ogcapi-common-all-as-bblocks/> a skos:ConceptScheme,
         dcat:Catalog,
         bblocks:BBlocksRegister ;
     rdfs:label "Building Blocks - OGC API - Common Building Blocks" ;
@@ -1365,7 +1365,7 @@ Blocks of OGC API - Common that were previously in two repositories:
 """^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
-    dct:modified "2026-11-16T12:06:14.158967"^^xsd:dateTime ;
+    dct:modified "2026-11-18T14:14:36.178467"^^xsd:dateTime ;
     skos:hasTopConcept <bblocks://ogc.api.common.part1.annexes.ats>,
         <bblocks://ogc.api.common.part1.annexes.bibliography>,
         <bblocks://ogc.api.common.part1.annexes.bnf>,
@@ -1410,19 +1410,19 @@ Blocks of OGC API - Common that were previously in two repositories:
     prof:hasResource [ rdfs:label "This Building Blocks Register in JSON-LD format" ;
             dct:type "application/ld+json" ;
             ns2:relation <http://www.iana.org/assignments/relation/self> ;
-            ns1:hasTarget <https://jfarduino.github.io/ogcapi-common-bblocks/build/bblocks.jsonld> ],
+            ns1:hasTarget <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/bblocks.jsonld> ],
         [ rdfs:label "This Building Blocks Register in JSON format" ;
             dct:type "application/json" ;
             ns2:relation <http://www.iana.org/assignments/relation/self> ;
-            ns1:hasTarget <https://jfarduino.github.io/ogcapi-common-bblocks/build/register.json> ],
+            ns1:hasTarget <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/register.json> ],
         [ rdfs:label "This Building Blocks Register in RDF Turtle format" ;
             dct:type "text/turtle" ;
             ns2:relation <http://www.iana.org/assignments/relation/self> ;
-            ns1:hasTarget <https://jfarduino.github.io/ogcapi-common-bblocks/build/bblocks.ttl> ] ;
-    foaf:homepage <https://jfarduino.github.io/ogcapi-common-bblocks/> ;
-    bblocks:hasValidationReport <https://jfarduino.github.io/ogcapi-common-bblocks/build/tests/report.html> .
+            ns1:hasTarget <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/bblocks.ttl> ] ;
+    foaf:homepage <https://geolabs.github.io/ogcapi-common-all-as-bblocks/> ;
+    bblocks:hasValidationReport <https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/tests/report.html> .
 
-_:Nfe284db6ca9d4282bfd969c30075644c a prov:Agent,
+_:N5da52e9940984a27b318080299e17d6d a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
     dct:hasVersion "0.6.0" ;

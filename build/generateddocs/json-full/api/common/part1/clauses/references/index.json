@@ -22,7 +22,7 @@
   ],
   "resources": [
     {
-      "ref": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/clauses/references/references.yaml",
+      "ref": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/clauses/references/references.yaml",
       "role": "references",
       "format": "application/yaml"
     }
@@ -33,10 +33,10 @@
     "url": "https://www.ogc.org/license"
   },
   "dateOfLastChange": "2026-11-16",
-  "sourceFiles": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/clauses/references/",
+  "sourceFiles": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/clauses/references/",
   "validationPassed": true,
   "description": "The following documents are referred to in the text in such a way that some or all of their content\nconstitutes requirements of this document. For dated references, only the edition cited applies. For\nundated references, the latest edition of the referenced document (including any amendments) applies.\n",
   "annotatedSchema": null,
-  "gitRepository": "https://github.com/JFarduino/ogcapi-common-bblocks",
+  "gitRepository": "https://github.com/GeoLabs/ogcapi-common-all-as-bblocks",
   "gitPath": "_sources/part1/clauses/references"
 }

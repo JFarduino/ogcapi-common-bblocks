@@ -18,8 +18,8 @@
     "ogcapi-common"
   ],
   "schema": {
-    "application/yaml": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/exception/schema.yaml",
-    "application/json": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/exception/schema.json"
+    "application/yaml": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/exception/schema.yaml",
+    "application/json": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/exception/schema.json"
   },
   "abstract": "This building block corresponds to the schema for an OGC API Common exception",
   "shaclShapes": {},
@@ -28,40 +28,40 @@
     "url": "https://www.ogc.org/license"
   },
   "dateOfLastChange": "2026-11-16",
-  "ldContext": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/exception/context.jsonld",
-  "remoteCacheDir": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/exception/remote_cache/",
+  "ldContext": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/exception/context.jsonld",
+  "remoteCacheDir": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/exception/remote_cache/",
   "sourceSchema": "https://schemas.opengis.net/ogcapi/common/part1/1.0/openapi/schemas/exception.yaml",
-  "sourceLdContext": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/schemas/exception/context.jsonld",
-  "resolvedSchemaProperties": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/exception/resolvedProperties.json",
-  "sourceFiles": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/schemas/exception/",
+  "sourceLdContext": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/schemas/exception/context.jsonld",
+  "resolvedSchemaProperties": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/exception/resolvedProperties.json",
+  "sourceFiles": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/schemas/exception/",
   "validationPassed": true,
-  "testOutputs": "https://github.com/JFarduino/ogcapi-common-bblocks/blob/main/build/tests/api/common/part1/schemas/exception/",
+  "testOutputs": "https://github.com/GeoLabs/ogcapi-common-all-as-bblocks/blob/main/build/tests/api/common/part1/schemas/exception/",
   "examples": [
     {
       "title": "A resource-not-found error",
       "snippets": [
         {
           "language": "json",
-          "url": "https://jfarduino.github.io/ogcapi-common-bblocks/build/tests/api/common/part1/schemas/exception/example_1_1.json",
+          "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/tests/api/common/part1/schemas/exception/example_1_1.json",
           "sizeBytes": 212,
           "code": "{\n  \"type\": \"http://www.opengis.net/def/exceptions/ogcapi-common-1/1.0/no-such-resource\",\n  \"title\": \"Resource not found\",\n  \"status\": 404,\n  \"detail\": \"The requested collection does not exist on this server.\"\n}\n"
         },
         {
           "language": "jsonld",
-          "url": "https://jfarduino.github.io/ogcapi-common-bblocks/build/tests/api/common/part1/schemas/exception/example_1_1.jsonld",
-          "sizeBytes": 344,
-          "code": "{\n  \"@context\": \"https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/exception/context.jsonld\",\n  \"type\": \"http://www.opengis.net/def/exceptions/ogcapi-common-1/1.0/no-such-resource\",\n  \"title\": \"Resource not found\",\n  \"status\": 404,\n  \"detail\": \"The requested collection does not exist on this server.\"\n}"
+          "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/tests/api/common/part1/schemas/exception/example_1_1.jsonld",
+          "sizeBytes": 349,
+          "code": "{\n  \"@context\": \"https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/exception/context.jsonld\",\n  \"type\": \"http://www.opengis.net/def/exceptions/ogcapi-common-1/1.0/no-such-resource\",\n  \"title\": \"Resource not found\",\n  \"status\": 404,\n  \"detail\": \"The requested collection does not exist on this server.\"\n}"
         },
         {
           "language": "ttl",
-          "url": "https://jfarduino.github.io/ogcapi-common-bblocks/build/tests/api/common/part1/schemas/exception/example_1_1.ttl",
+          "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/tests/api/common/part1/schemas/exception/example_1_1.ttl",
           "sizeBytes": 378,
           "code": "@prefix dct: <http://purl.org/dc/terms/> .\n@prefix httpv: <http://www.w3.org/2011/http#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a <http://www.opengis.net/def/exceptions/ogcapi-common-1/1.0/no-such-resource> ;\n    dct:description \"The requested collection does not exist on this server.\" ;\n    dct:title \"Resource not found\" ;\n    httpv:statusCodeNumber 404 .\n\n"
         }
       ]
     }
   ],
-  "annotatedSchema": "title: Exception Schema\ndescription: JSON schema for exceptions based on RFC 7807\ntype: object\nrequired:\n- type\nproperties:\n  type:\n    type: string\n    x-jsonld-id: '@type'\n  title:\n    type: string\n    x-jsonld-id: http://purl.org/dc/terms/title\n  status:\n    type: integer\n    x-jsonld-id: http://www.w3.org/2011/http#statusCodeNumber\n  detail:\n    type: string\n    x-jsonld-id: http://purl.org/dc/terms/description\n  instance:\n    type: string\n    x-jsonld-id: '@id'\nx-jsonld-prefixes:\n  dct: http://purl.org/dc/terms/\n  httpv: http://www.w3.org/2011/http#\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.common.part1.schemas.exception\n  register: https://jfarduino.github.io/ogcapi-common-bblocks/build/register.json\n  version: '0.1'\n  dateOfLastChange: '2025-10-23'\n",
-  "gitRepository": "https://github.com/JFarduino/ogcapi-common-bblocks",
+  "annotatedSchema": "title: Exception Schema\ndescription: JSON schema for exceptions based on RFC 7807\ntype: object\nrequired:\n- type\nproperties:\n  type:\n    type: string\n    x-jsonld-id: '@type'\n  title:\n    type: string\n    x-jsonld-id: http://purl.org/dc/terms/title\n  status:\n    type: integer\n    x-jsonld-id: http://www.w3.org/2011/http#statusCodeNumber\n  detail:\n    type: string\n    x-jsonld-id: http://purl.org/dc/terms/description\n  instance:\n    type: string\n    x-jsonld-id: '@id'\nx-jsonld-prefixes:\n  dct: http://purl.org/dc/terms/\n  httpv: http://www.w3.org/2011/http#\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.common.part1.schemas.exception\n  register: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/register.json\n  version: '0.1'\n  dateOfLastChange: '2025-10-23'\n",
+  "gitRepository": "https://github.com/GeoLabs/ogcapi-common-all-as-bblocks",
   "gitPath": "_sources/part1/schemas/exception"
 }

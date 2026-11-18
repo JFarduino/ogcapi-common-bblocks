@@ -24,6 +24,6 @@ x-jsonld-prefixes:
   httpv: http://www.w3.org/2011/http#
 x-bblocks-metadata:
   itemIdentifier: ogc.api.common.part1.schemas.exception
-  register: https://jfarduino.github.io/ogcapi-common-bblocks/build/register.json
+  register: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/register.json
   version: '0.1'
   dateOfLastChange: '2025-10-23'

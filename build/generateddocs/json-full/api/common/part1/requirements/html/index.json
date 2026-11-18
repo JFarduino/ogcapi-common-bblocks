@@ -30,7 +30,7 @@
   ],
   "resources": [
     {
-      "ref": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/requirements/html/requirements.yaml",
+      "ref": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/requirements/html/requirements.yaml",
       "role": "requirements",
       "format": "application/yaml"
     }
@@ -41,20 +41,20 @@
     "url": "https://www.ogc.org/license"
   },
   "dateOfLastChange": "2026-11-16",
-  "sourceFiles": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/requirements/html/",
+  "sourceFiles": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/requirements/html/",
   "testResources": [
     {
       "id": "conf/html/definition",
-      "url": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/test-resources/landing-page.html"
+      "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/test-resources/landing-page.html"
     },
     {
       "id": "conf/html/content",
-      "url": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/test-resources/landing-page.html"
+      "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/test-resources/landing-page.html"
     }
   ],
   "validationPassed": true,
   "description": "Geographic information that is only accessible in formats such as GeoJSON or GML have two issues when\nweb application principles are considered:\n\n- The data are not discoverable using Web crawlers and search engines,\n- The data cannot be viewed directly in a browser \u2014 additional tools are required to view the data.\n\nTherefore, sharing data on the Web should include publication in HTML. To be consistent with the Web,\nthis publication should be done in a way that enables users and search engines to discover and access\nall of the data.\n\nThis is discussed in detail in the W3C/OGC SDW Best Practice. Therefore, the OGC API \u2014 Common Standard\nrecommends supporting HTML as an encoding.\n\n<!-- requirements-class -->\n\n<!-- requirement: html/definition -->\n\n<!-- requirement: html/content -->\n\n<!-- recommendation: html/schema-org -->\n",
   "annotatedSchema": null,
-  "gitRepository": "https://github.com/JFarduino/ogcapi-common-bblocks",
+  "gitRepository": "https://github.com/GeoLabs/ogcapi-common-all-as-bblocks",
   "gitPath": "_sources/part1/requirements/html"
 }

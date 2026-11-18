@@ -29,13 +29,13 @@
   },
   "dateOfLastChange": "2026-11-16",
   "schema": {
-    "application/yaml": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/responses/ConformanceDeclaration/schema.yaml",
-    "application/json": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/responses/ConformanceDeclaration/schema.json"
+    "application/yaml": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/responses/ConformanceDeclaration/schema.yaml",
+    "application/json": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/responses/ConformanceDeclaration/schema.json"
   },
-  "sourceSchema": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/responses/ConformanceDeclaration/schema.yaml",
-  "sourceFiles": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/responses/ConformanceDeclaration/",
+  "sourceSchema": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/responses/ConformanceDeclaration/schema.yaml",
+  "sourceFiles": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/responses/ConformanceDeclaration/",
   "validationPassed": true,
-  "annotatedSchema": "description: 'The URIs of all conformance classes supported by the server.\n\n  To support \"generic\" clients that want to access multiple OGC API implementations\n  - and not \"just\" a specific API / server, the server declares the conformance classes\n  it implements and conforms to.'\ncontent:\n  application/json:\n    schema:\n      $ref: https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/confClasses/schema.yaml\n    example:\n      conformsTo:\n      - http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/core\n  text/html:\n    schema:\n      type: string\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.common.part1.responses.ConformanceDeclaration\n  register: https://jfarduino.github.io/ogcapi-common-bblocks/build/register.json\n  version: '0.1'\n  dateOfLastChange: '2026-09-16'\n",
-  "gitRepository": "https://github.com/JFarduino/ogcapi-common-bblocks",
+  "annotatedSchema": "description: 'The URIs of all conformance classes supported by the server.\n\n  To support \"generic\" clients that want to access multiple OGC API implementations\n  - and not \"just\" a specific API / server, the server declares the conformance classes\n  it implements and conforms to.'\ncontent:\n  application/json:\n    schema:\n      $ref: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/confClasses/schema.yaml\n    example:\n      conformsTo:\n      - http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/core\n  text/html:\n    schema:\n      type: string\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.common.part1.responses.ConformanceDeclaration\n  register: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/register.json\n  version: '0.1'\n  dateOfLastChange: '2026-09-16'\n",
+  "gitRepository": "https://github.com/GeoLabs/ogcapi-common-all-as-bblocks",
   "gitPath": "_sources/part1/responses/ConformanceDeclaration"
 }

@@ -17,13 +17,13 @@ description: The landing page provides links to the API definition (link relatio
 content:
   application/json:
     schema:
-      $ref: https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/landingPage/schema.yaml
+      $ref: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/landingPage/schema.yaml
   text/html:
     schema:
       type: string
 x-bblocks-metadata:
   itemIdentifier: ogc.api.common.part1.responses.LandingPage
-  register: https://jfarduino.github.io/ogcapi-common-bblocks/build/register.json
+  register: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/register.json
   version: '0.1'
   dateOfLastChange: '2026-09-16'
 
@@ -31,8 +31,8 @@ x-bblocks-metadata:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/responses/LandingPage/schema.json)
-* JSON version: [schema.json](https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/responses/LandingPage/schema.yaml)
+* YAML version: [schema.yaml](https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/responses/LandingPage/schema.json)
+* JSON version: [schema.json](https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/responses/LandingPage/schema.yaml)
 
 ## Sources
 
@@ -42,6 +42,6 @@ Links to the schema:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/JFarduino/ogcapi-common-bblocks](https://github.com/JFarduino/ogcapi-common-bblocks)
+* URL: [https://github.com/GeoLabs/ogcapi-common-all-as-bblocks](https://github.com/GeoLabs/ogcapi-common-all-as-bblocks)
 * Path: `_sources/part1/responses/LandingPage`
 

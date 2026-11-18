@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.api.common.part1.requirements.json - Requirements Class \u201cJSON\u201d",
   "bblockName": "Requirements Class \u201cJSON\u201d",
   "bblockId": "ogc.api.common.part1.requirements.json",
-  "generated": "2026-11-16T12:06:27.180759+00:00",
+  "generated": "2026-11-18T14:14:46.024468+00:00",
   "result": true,
   "items": [
     {
@@ -10,7 +10,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": false,
         "filename": "_sources/part1/requirements/json/tests/conf-json-definition-landing-page.json",
-        "url": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/requirements/json/tests/conf-json-definition-landing-page.json",
+        "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/requirements/json/tests/conf-json-definition-landing-page.json",
         "language": "json"
       },
       "result": true,
@@ -64,7 +64,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": false,
         "filename": "_sources/part1/requirements/json/tests/conf-json-definition-conformance.json",
-        "url": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/requirements/json/tests/conf-json-definition-conformance.json",
+        "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/requirements/json/tests/conf-json-definition-conformance.json",
         "language": "json"
       },
       "result": true,
@@ -118,7 +118,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": false,
         "filename": "_sources/part1/requirements/json/tests/conf-json-content-landing-page.json",
-        "url": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/requirements/json/tests/conf-json-content-landing-page.json",
+        "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/requirements/json/tests/conf-json-content-landing-page.json",
         "language": "json"
       },
       "result": true,
@@ -172,7 +172,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": false,
         "filename": "_sources/part1/requirements/json/tests/conf-json-content-conformance.json",
-        "url": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/requirements/json/tests/conf-json-content-conformance.json",
+        "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/requirements/json/tests/conf-json-content-conformance.json",
         "language": "json"
       },
       "result": true,
@@ -226,7 +226,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": true,
         "filename": "_sources/part1/requirements/json/tests/conf-json-content-landing-page-no-links-fail.json",
-        "url": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/requirements/json/tests/conf-json-content-landing-page-no-links-fail.json",
+        "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/requirements/json/tests/conf-json-content-landing-page-no-links-fail.json",
         "language": "json"
       },
       "result": true,
@@ -282,7 +282,7 @@
               "exception": "ValidationError",
               "errorMessage": "{'title': 'Example API Landing Page', 'description': 'Invalid landing page: the required \"links\" member is missing, so it does not conform to landingPage.yaml'} is not valid under any of the given schemas",
               "isError": true,
-              "message": "ValidationError: {'title': 'Example API Landing Page', 'description': 'Invalid landing page: the required \"links\" member is missing, so it does not conform to landingPage.yaml'} is not valid under any of the given schemas\n\nFailed validating 'anyOf' in schema:\n    {'$schema': 'https://json-schema.org/draft/2020-12/schema',\n     'title': 'JSON payload of the Landing Page requirements class '\n              'resources',\n     'description': '/req/json/content (OGC 19-072): the JSON payload of a '\n                    'Landing Page or Conformance resource SHALL conform '\n                    'with the JSON Schema specified for the resource in '\n                    'the Landing Page Requirements Class, i.e. '\n                    'landingPage.yaml for the Landing Page and '\n                    'confClasses.yaml for the Conformance Declaration. The '\n                    'test resources of the JSON requirements class are '\n                    'validated against this schema.',\n     'anyOf': [{'$ref': 'https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/landingPage/schema.yaml'},\n               {'$ref': 'https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/confClasses/schema.yaml'}],\n     'x-bblocks-metadata': {'itemIdentifier': 'ogc.api.common.part1.requirements.json',\n                            'register': 'https://jfarduino.github.io/ogcapi-common-bblocks/build/register.json',\n                            'version': '1.0.0',\n                            'dateOfLastChange': '2026-11-10'},\n     '$id': 'file:///github/workspace/build/annotated/api/common/part1/requirements/json/schema.yaml'}\n\nOn instance:\n    {'title': 'Example API Landing Page',\n     'description': 'Invalid landing page: the required \"links\" member is '\n                    'missing, so it does not conform to landingPage.yaml'}"
+              "message": "ValidationError: {'title': 'Example API Landing Page', 'description': 'Invalid landing page: the required \"links\" member is missing, so it does not conform to landingPage.yaml'} is not valid under any of the given schemas\n\nFailed validating 'anyOf' in schema:\n    {'$schema': 'https://json-schema.org/draft/2020-12/schema',\n     'title': 'JSON payload of the Landing Page requirements class '\n              'resources',\n     'description': '/req/json/content (OGC 19-072): the JSON payload of a '\n                    'Landing Page or Conformance resource SHALL conform '\n                    'with the JSON Schema specified for the resource in '\n                    'the Landing Page Requirements Class, i.e. '\n                    'landingPage.yaml for the Landing Page and '\n                    'confClasses.yaml for the Conformance Declaration. The '\n                    'test resources of the JSON requirements class are '\n                    'validated against this schema.',\n     'anyOf': [{'$ref': 'https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/landingPage/schema.yaml'},\n               {'$ref': 'https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/confClasses/schema.yaml'}],\n     'x-bblocks-metadata': {'itemIdentifier': 'ogc.api.common.part1.requirements.json',\n                            'register': 'https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/register.json',\n                            'version': '1.0.0',\n                            'dateOfLastChange': '2026-11-10'},\n     '$id': 'file:///github/workspace/build/annotated/api/common/part1/requirements/json/schema.yaml'}\n\nOn instance:\n    {'title': 'Example API Landing Page',\n     'description': 'Invalid landing page: the required \"links\" member is '\n                    'missing, so it does not conform to landingPage.yaml'}"
             }
           ]
         }
@@ -293,7 +293,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": true,
         "filename": "_sources/part1/requirements/json/tests/conf-json-content-conformance-not-a-list-fail.json",
-        "url": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/requirements/json/tests/conf-json-content-conformance-not-a-list-fail.json",
+        "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/requirements/json/tests/conf-json-content-conformance-not-a-list-fail.json",
         "language": "json"
       },
       "result": true,

@@ -18,8 +18,8 @@
     "ogcapi-common"
   ],
   "schema": {
-    "application/yaml": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/confClasses/schema.yaml",
-    "application/json": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/confClasses/schema.json"
+    "application/yaml": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/confClasses/schema.yaml",
+    "application/json": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/confClasses/schema.json"
   },
   "abstract": "This building block corresponds to the schema for an OGC API Common confClasses",
   "shaclShapes": {},
@@ -28,40 +28,40 @@
     "url": "https://www.ogc.org/license"
   },
   "dateOfLastChange": "2026-11-16",
-  "ldContext": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/confClasses/context.jsonld",
-  "remoteCacheDir": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/confClasses/remote_cache/",
+  "ldContext": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/confClasses/context.jsonld",
+  "remoteCacheDir": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/confClasses/remote_cache/",
   "sourceSchema": "https://schemas.opengis.net/ogcapi/common/part1/1.0/openapi/schemas/confClasses.yaml",
-  "sourceLdContext": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/schemas/confClasses/context.jsonld",
-  "resolvedSchemaProperties": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/confClasses/resolvedProperties.json",
-  "sourceFiles": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/schemas/confClasses/",
+  "sourceLdContext": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/schemas/confClasses/context.jsonld",
+  "resolvedSchemaProperties": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/confClasses/resolvedProperties.json",
+  "sourceFiles": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/schemas/confClasses/",
   "validationPassed": true,
-  "testOutputs": "https://github.com/JFarduino/ogcapi-common-bblocks/blob/main/build/tests/api/common/part1/schemas/confClasses/",
+  "testOutputs": "https://github.com/GeoLabs/ogcapi-common-all-as-bblocks/blob/main/build/tests/api/common/part1/schemas/confClasses/",
   "examples": [
     {
       "title": "A conformance declaration for an OGC API Common - Core implementation",
       "snippets": [
         {
           "language": "json",
-          "url": "https://jfarduino.github.io/ogcapi-common-bblocks/build/tests/api/common/part1/schemas/confClasses/example_1_1.json",
+          "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/tests/api/common/part1/schemas/confClasses/example_1_1.json",
           "sizeBytes": 359,
           "code": "{\n  \"conformsTo\": [\n    \"http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/core\",\n    \"http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/landing-page\",\n    \"http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/json\",\n    \"http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/html\",\n    \"http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/oas30\"\n  ]\n}\n"
         },
         {
           "language": "jsonld",
-          "url": "https://jfarduino.github.io/ogcapi-common-bblocks/build/tests/api/common/part1/schemas/confClasses/example_1_1.jsonld",
-          "sizeBytes": 493,
-          "code": "{\n  \"@context\": \"https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/confClasses/context.jsonld\",\n  \"conformsTo\": [\n    \"http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/core\",\n    \"http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/landing-page\",\n    \"http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/json\",\n    \"http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/html\",\n    \"http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/oas30\"\n  ]\n}"
+          "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/tests/api/common/part1/schemas/confClasses/example_1_1.jsonld",
+          "sizeBytes": 498,
+          "code": "{\n  \"@context\": \"https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/confClasses/context.jsonld\",\n  \"conformsTo\": [\n    \"http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/core\",\n    \"http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/landing-page\",\n    \"http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/json\",\n    \"http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/html\",\n    \"http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/oas30\"\n  ]\n}"
         },
         {
           "language": "ttl",
-          "url": "https://jfarduino.github.io/ogcapi-common-bblocks/build/tests/api/common/part1/schemas/confClasses/example_1_1.ttl",
+          "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/tests/api/common/part1/schemas/confClasses/example_1_1.ttl",
           "sizeBytes": 410,
           "code": "@prefix dct: <http://purl.org/dc/terms/> .\n\n[] dct:conformsTo <http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/core>,\n        <http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/html>,\n        <http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/json>,\n        <http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/landing-page>,\n        <http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/oas30> .\n\n"
         }
       ]
     }
   ],
-  "annotatedSchema": "type: object\nrequired:\n- conformsTo\nproperties:\n  conformsTo:\n    type: array\n    items:\n      type: string\n      example: http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/core\n    x-jsonld-id: http://purl.org/dc/terms/conformsTo\n    x-jsonld-type: '@id'\n    x-jsonld-container: '@set'\nx-jsonld-prefixes:\n  dct: http://purl.org/dc/terms/\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.common.part1.schemas.confClasses\n  register: https://jfarduino.github.io/ogcapi-common-bblocks/build/register.json\n  version: '0.1'\n  dateOfLastChange: '2025-10-23'\n",
-  "gitRepository": "https://github.com/JFarduino/ogcapi-common-bblocks",
+  "annotatedSchema": "type: object\nrequired:\n- conformsTo\nproperties:\n  conformsTo:\n    type: array\n    items:\n      type: string\n      example: http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/core\n    x-jsonld-id: http://purl.org/dc/terms/conformsTo\n    x-jsonld-type: '@id'\n    x-jsonld-container: '@set'\nx-jsonld-prefixes:\n  dct: http://purl.org/dc/terms/\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.common.part1.schemas.confClasses\n  register: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/register.json\n  version: '0.1'\n  dateOfLastChange: '2025-10-23'\n",
+  "gitRepository": "https://github.com/GeoLabs/ogcapi-common-all-as-bblocks",
   "gitPath": "_sources/part1/schemas/confClasses"
 }

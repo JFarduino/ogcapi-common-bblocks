@@ -1,5 +1,5 @@
 Validation report for ogc.api.common.part1.requirements.landing-page - Landing Page Requirements Class
-Generated 2026-11-16T12:06:27.113063+00:00
+Generated 2026-11-18T14:14:45.941309+00:00
 === Files ===
 Using conf-landing-page-root-success.json from test resources
 === End Files ===

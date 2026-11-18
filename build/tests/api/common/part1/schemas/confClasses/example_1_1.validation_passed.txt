@@ -1,5 +1,5 @@
 Validation report for ogc.api.common.part1.schemas.confClasses - Conformance Classes schema
-Generated 2026-11-16T12:06:27.047459+00:00
+Generated 2026-11-18T14:14:45.849213+00:00
 === Files ===
 Using example_1_1.json from examples
 JSON-LD context is present - uplifting

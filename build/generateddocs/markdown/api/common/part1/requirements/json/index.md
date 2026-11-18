@@ -41,11 +41,11 @@ description: '/req/json/content (OGC 19-072): the JSON payload of a Landing Page
   and confClasses.yaml for the Conformance Declaration. The test resources of the
   JSON requirements class are validated against this schema.'
 anyOf:
-- $ref: https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/landingPage/schema.yaml
-- $ref: https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/confClasses/schema.yaml
+- $ref: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/landingPage/schema.yaml
+- $ref: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/confClasses/schema.yaml
 x-bblocks-metadata:
   itemIdentifier: ogc.api.common.part1.requirements.json
-  register: https://jfarduino.github.io/ogcapi-common-bblocks/build/register.json
+  register: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/register.json
   version: 1.0.0
   dateOfLastChange: '2026-11-10'
 
@@ -53,8 +53,8 @@ x-bblocks-metadata:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/requirements/json/schema.json)
-* JSON version: [schema.json](https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/requirements/json/schema.yaml)
+* YAML version: [schema.yaml](https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/requirements/json/schema.json)
+* JSON version: [schema.json](https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/requirements/json/schema.yaml)
 
 
 # JSON-LD Context
@@ -78,7 +78,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/requirements/json/context.jsonld)
+[context.jsonld](https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/requirements/json/context.jsonld)
 
 ## Sources
 
@@ -88,6 +88,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/JFarduino/ogcapi-common-bblocks](https://github.com/JFarduino/ogcapi-common-bblocks)
+* URL: [https://github.com/GeoLabs/ogcapi-common-all-as-bblocks](https://github.com/GeoLabs/ogcapi-common-all-as-bblocks)
 * Path: `_sources/part1/requirements/json`
 

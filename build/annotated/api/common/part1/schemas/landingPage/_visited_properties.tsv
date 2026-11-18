@@ -3,9 +3,9 @@ path	@id	schema
 /description	http://purl.org/dc/terms/description	/github/workspace/build/annotated/api/common/part1/schemas/landingPage/schema.yaml
 /attribution		/github/workspace/build/annotated/api/common/part1/schemas/landingPage/schema.yaml
 /links		/github/workspace/build/annotated/api/common/part1/schemas/landingPage/schema.yaml
-/links/href	http://www.w3.org/ns/oa#hasTarget	https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/link/schema.yaml
-/links/rel	http://www.iana.org/assignments/relation	https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/link/schema.yaml
-/links/type	http://purl.org/dc/terms/type	https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/link/schema.yaml
-/links/hreflang	http://purl.org/dc/terms/language	https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/link/schema.yaml
-/links/title	http://www.w3.org/2000/01/rdf-schema#label	https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/link/schema.yaml
-/links/length	http://purl.org/dc/terms/extent	https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/link/schema.yaml
+/links/href	http://www.w3.org/ns/oa#hasTarget	https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/link/schema.yaml
+/links/rel	http://www.iana.org/assignments/relation	https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/link/schema.yaml
+/links/type	http://purl.org/dc/terms/type	https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/link/schema.yaml
+/links/hreflang	http://purl.org/dc/terms/language	https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/link/schema.yaml
+/links/title	http://www.w3.org/2000/01/rdf-schema#label	https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/link/schema.yaml
+/links/length	http://purl.org/dc/terms/extent	https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/link/schema.yaml

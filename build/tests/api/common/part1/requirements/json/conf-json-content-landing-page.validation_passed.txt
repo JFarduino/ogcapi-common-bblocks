@@ -1,5 +1,5 @@
 Validation report for ogc.api.common.part1.requirements.json - Requirements Class “JSON”
-Generated 2026-11-16T12:06:27.175182+00:00
+Generated 2026-11-18T14:14:46.016651+00:00
 === Files ===
 Using conf-json-content-landing-page.json from test resources
 JSON-LD context is present - uplifting

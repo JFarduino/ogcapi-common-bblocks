@@ -7,6 +7,6 @@ get:
   - ConformanceDeclaration
   responses:
     200:
-      $ref: https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/responses/ConformanceDeclaration/schema.yaml
+      $ref: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/responses/ConformanceDeclaration/schema.yaml
     default:
-      $ref: https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/responses/Exception/schema.yaml
+      $ref: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/responses/Exception/schema.yaml

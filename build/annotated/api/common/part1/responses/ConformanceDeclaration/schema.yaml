@@ -6,7 +6,7 @@ description: 'The URIs of all conformance classes supported by the server.
 content:
   application/json:
     schema:
-      $ref: https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/confClasses/schema.yaml
+      $ref: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/confClasses/schema.yaml
     example:
       conformsTo:
       - http://www.opengis.net/spec/ogcapi-common-1/1.0/conf/core
@@ -15,6 +15,6 @@ content:
       type: string
 x-bblocks-metadata:
   itemIdentifier: ogc.api.common.part1.responses.ConformanceDeclaration
-  register: https://jfarduino.github.io/ogcapi-common-bblocks/build/register.json
+  register: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/register.json
   version: '0.1'
   dateOfLastChange: '2026-09-16'

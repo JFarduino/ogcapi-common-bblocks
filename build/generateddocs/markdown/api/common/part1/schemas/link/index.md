@@ -26,7 +26,7 @@ A link to a GeoJSON representation of the same resource.
 #### jsonld
 ```jsonld
 {
-  "@context": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/link/context.jsonld",
+  "@context": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/link/context.jsonld",
   "href": "http://data.example.com/buildings/123.json",
   "rel": "alternate",
   "type": "application/geo+json",
@@ -97,7 +97,7 @@ x-jsonld-prefixes:
   rdfs: http://www.w3.org/2000/01/rdf-schema#
 x-bblocks-metadata:
   itemIdentifier: ogc.api.common.part1.schemas.link
-  register: https://jfarduino.github.io/ogcapi-common-bblocks/build/register.json
+  register: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/register.json
   version: '0.1'
   dateOfLastChange: '2025-10-23'
 
@@ -105,8 +105,8 @@ x-bblocks-metadata:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/link/schema.json)
-* JSON version: [schema.json](https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/link/schema.yaml)
+* YAML version: [schema.yaml](https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/link/schema.json)
+* JSON version: [schema.json](https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/link/schema.yaml)
 
 
 # JSON-LD Context
@@ -138,7 +138,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/link/context.jsonld)
+[context.jsonld](https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/link/context.jsonld)
 
 ## Sources
 
@@ -148,6 +148,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/JFarduino/ogcapi-common-bblocks](https://github.com/JFarduino/ogcapi-common-bblocks)
+* URL: [https://github.com/GeoLabs/ogcapi-common-all-as-bblocks](https://github.com/GeoLabs/ogcapi-common-all-as-bblocks)
 * Path: `_sources/part1/schemas/link`
 

@@ -24,7 +24,7 @@ This building block corresponds to the schema for an OGC API Common exception
 #### jsonld
 ```jsonld
 {
-  "@context": "https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/exception/context.jsonld",
+  "@context": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/exception/context.jsonld",
   "type": "http://www.opengis.net/def/exceptions/ogcapi-common-1/1.0/no-such-resource",
   "title": "Resource not found",
   "status": 404,
@@ -75,7 +75,7 @@ x-jsonld-prefixes:
   httpv: http://www.w3.org/2011/http#
 x-bblocks-metadata:
   itemIdentifier: ogc.api.common.part1.schemas.exception
-  register: https://jfarduino.github.io/ogcapi-common-bblocks/build/register.json
+  register: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/register.json
   version: '0.1'
   dateOfLastChange: '2025-10-23'
 
@@ -83,8 +83,8 @@ x-bblocks-metadata:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/exception/schema.json)
-* JSON version: [schema.json](https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/exception/schema.yaml)
+* YAML version: [schema.yaml](https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/exception/schema.json)
+* JSON version: [schema.json](https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/exception/schema.yaml)
 
 
 # JSON-LD Context
@@ -105,7 +105,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/exception/context.jsonld)
+[context.jsonld](https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/exception/context.jsonld)
 
 ## Sources
 
@@ -115,6 +115,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/JFarduino/ogcapi-common-bblocks](https://github.com/JFarduino/ogcapi-common-bblocks)
+* URL: [https://github.com/GeoLabs/ogcapi-common-all-as-bblocks](https://github.com/GeoLabs/ogcapi-common-all-as-bblocks)
 * Path: `_sources/part1/schemas/exception`
 

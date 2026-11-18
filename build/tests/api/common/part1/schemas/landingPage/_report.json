@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.api.common.part1.schemas.landingPage - Landing Page schema",
   "bblockName": "Landing Page schema",
   "bblockId": "ogc.api.common.part1.schemas.landingPage",
-  "generated": "2026-11-16T12:06:27.094070+00:00",
+  "generated": "2026-11-18T14:14:45.915603+00:00",
   "result": true,
   "items": [
     {
@@ -10,7 +10,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/api/common/part1/schemas/landingPage/example_1_1.json",
-        "url": "https://jfarduino.github.io/ogcapi-common-bblocks/build/tests/api/common/part1/schemas/landingPage/example_1_1.json",
+        "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/tests/api/common/part1/schemas/landingPage/example_1_1.json",
         "exampleIndex": 1,
         "snippetIndex": 1,
         "language": "application/json"

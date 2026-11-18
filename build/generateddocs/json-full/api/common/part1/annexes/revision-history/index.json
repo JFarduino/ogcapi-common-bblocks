@@ -26,10 +26,10 @@
     "url": "https://www.ogc.org/license"
   },
   "dateOfLastChange": "2026-11-16",
-  "sourceFiles": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/annexes/revision-history/",
+  "sourceFiles": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/annexes/revision-history/",
   "validationPassed": true,
   "description": "*Table F.1 \u2014 Revision History*\n\n| Date | Release | Editor | Primary clauses modified | Description |\n|---|---|---|---|---|\n| 2019-10-31 | October 2019 snapshot | C. Heazel | all | Baseline update |\n| 2020-04-21 | Public Comments | C. Heazel | all | Separation of Collections from Core plus additional comment adjudications. |\n| 2021-04-12 | Public Comments | C. Heazel | all | Second public comment period. |\n| 2021-08-01 | Final Review | C. Heazel | all | Ready for SWG review and TC vote |\n| 2022-11-04 | 1.0.0 | G. Hobona | all | Final OGC Staff review |\n",
   "annotatedSchema": null,
-  "gitRepository": "https://github.com/JFarduino/ogcapi-common-bblocks",
+  "gitRepository": "https://github.com/GeoLabs/ogcapi-common-all-as-bblocks",
   "gitPath": "_sources/part1/annexes/revision-history"
 }

@@ -26,10 +26,10 @@
     "url": "https://www.ogc.org/license"
   },
   "dateOfLastChange": "2026-11-16",
-  "sourceFiles": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/preface/preface/",
+  "sourceFiles": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/preface/preface/",
   "validationPassed": true,
   "description": "Attention is drawn to the possibility that some of the elements of this document may be the subject of\npatent rights. The Open Geospatial Consortium shall not be held responsible for identifying any or all\nsuch patent rights.\n\nRecipients of this document are requested to submit, with their comments, notification of any relevant\npatent claims or other intellectual property rights of which they may be aware that might be infringed\nby any implementation of the standard set forth in this document, and to provide supporting\ndocumentation.\n\nSuggested additions, changes and comments on this document are welcome and encouraged. Such suggestions\nmay be submitted using the online change request form on OGC web site:\n[http://ogc.standardstracker.org/](http://ogc.standardstracker.org/)\n",
   "annotatedSchema": null,
-  "gitRepository": "https://github.com/JFarduino/ogcapi-common-bblocks",
+  "gitRepository": "https://github.com/GeoLabs/ogcapi-common-all-as-bblocks",
   "gitPath": "_sources/part1/preface/preface"
 }

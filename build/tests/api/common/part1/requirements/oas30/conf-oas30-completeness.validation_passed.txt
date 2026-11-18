@@ -1,5 +1,5 @@
 Validation report for ogc.api.common.part1.requirements.oas30 - OpenAPI 3.0 Requirements Class
-Generated 2026-11-16T12:06:27.191595+00:00
+Generated 2026-11-18T14:14:46.039504+00:00
 === Files ===
 Using conf-oas30-completeness.yaml from test resources
 === End Files ===

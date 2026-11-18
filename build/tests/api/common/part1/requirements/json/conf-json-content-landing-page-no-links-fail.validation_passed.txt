@@ -1,5 +1,5 @@
 Validation report for ogc.api.common.part1.requirements.json - Requirements Class “JSON”
-Generated 2026-11-16T12:06:27.178984+00:00
+Generated 2026-11-18T14:14:46.022046+00:00
 === General ===
 Test was expected to fail and it did.
 === End General ===
@@ -28,10 +28,10 @@ Failed validating 'anyOf' in schema:
                     'confClasses.yaml for the Conformance Declaration. The '
                     'test resources of the JSON requirements class are '
                     'validated against this schema.',
-     'anyOf': [{'$ref': 'https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/landingPage/schema.yaml'},
-               {'$ref': 'https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/schemas/confClasses/schema.yaml'}],
+     'anyOf': [{'$ref': 'https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/landingPage/schema.yaml'},
+               {'$ref': 'https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/schemas/confClasses/schema.yaml'}],
      'x-bblocks-metadata': {'itemIdentifier': 'ogc.api.common.part1.requirements.json',
-                            'register': 'https://jfarduino.github.io/ogcapi-common-bblocks/build/register.json',
+                            'register': 'https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/register.json',
                             'version': '1.0.0',
                             'dateOfLastChange': '2026-11-10'},
      '$id': 'file:///github/workspace/build/annotated/api/common/part1/requirements/json/schema.yaml'}

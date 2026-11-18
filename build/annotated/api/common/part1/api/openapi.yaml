@@ -26,9 +26,9 @@ info:
     url: http://www.opengeospatial.org/legal/
 paths:
   /:
-    $ref: https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/paths/LandingPage/openapi.yaml
+    $ref: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/paths/LandingPage/openapi.yaml
   /conformance:
-    $ref: https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/paths/Conformance/openapi.yaml
+    $ref: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/paths/Conformance/openapi.yaml
   /api:
     get:
       description: This document
@@ -38,9 +38,9 @@ paths:
         '200':
           description: General Success response.
         '400':
-          $ref: https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/responses/Exception/schema.yaml
+          $ref: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/responses/Exception/schema.yaml
         default:
-          $ref: https://jfarduino.github.io/ogcapi-common-bblocks/build/annotated/api/common/part1/responses/Exception/schema.yaml
+          $ref: https://geolabs.github.io/ogcapi-common-all-as-bblocks/build/annotated/api/common/part1/responses/Exception/schema.yaml
       summary: This document
       tags:
       - server

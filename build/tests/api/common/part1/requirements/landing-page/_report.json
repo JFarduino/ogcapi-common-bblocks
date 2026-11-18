@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.api.common.part1.requirements.landing-page - Landing Page Requirements Class",
   "bblockName": "Landing Page Requirements Class",
   "bblockId": "ogc.api.common.part1.requirements.landing-page",
-  "generated": "2026-11-16T12:06:27.115493+00:00",
+  "generated": "2026-11-18T14:14:45.944799+00:00",
   "result": true,
   "items": [
     {
@@ -10,7 +10,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": false,
         "filename": "_sources/part1/requirements/landing-page/tests/conf-landing-page-root-op.json",
-        "url": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/requirements/landing-page/tests/conf-landing-page-root-op.json",
+        "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/requirements/landing-page/tests/conf-landing-page-root-op.json",
         "language": "json"
       },
       "result": true,
@@ -33,7 +33,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": false,
         "filename": "_sources/part1/requirements/landing-page/tests/conf-landing-page-root-success.json",
-        "url": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/requirements/landing-page/tests/conf-landing-page-root-success.json",
+        "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/requirements/landing-page/tests/conf-landing-page-root-success.json",
         "language": "json"
       },
       "result": true,
@@ -56,7 +56,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": false,
         "filename": "_sources/part1/requirements/landing-page/tests/conf-landing-page-api-definition-op.yaml",
-        "url": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/requirements/landing-page/tests/conf-landing-page-api-definition-op.yaml",
+        "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/requirements/landing-page/tests/conf-landing-page-api-definition-op.yaml",
         "language": "yaml"
       },
       "result": true,
@@ -79,7 +79,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": false,
         "filename": "_sources/part1/requirements/landing-page/tests/conf-landing-page-api-definition-success.yaml",
-        "url": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/requirements/landing-page/tests/conf-landing-page-api-definition-success.yaml",
+        "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/requirements/landing-page/tests/conf-landing-page-api-definition-success.yaml",
         "language": "yaml"
       },
       "result": true,
@@ -102,7 +102,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": false,
         "filename": "_sources/part1/requirements/landing-page/tests/conf-landing-page-conformance-op.json",
-        "url": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/requirements/landing-page/tests/conf-landing-page-conformance-op.json",
+        "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/requirements/landing-page/tests/conf-landing-page-conformance-op.json",
         "language": "json"
       },
       "result": true,
@@ -125,7 +125,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": false,
         "filename": "_sources/part1/requirements/landing-page/tests/conf-landing-page-conformance-success.json",
-        "url": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/requirements/landing-page/tests/conf-landing-page-conformance-success.json",
+        "url": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/requirements/landing-page/tests/conf-landing-page-conformance-success.json",
         "language": "json"
       },
       "result": true,

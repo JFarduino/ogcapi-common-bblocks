@@ -26,10 +26,10 @@
     "url": "https://www.ogc.org/license"
   },
   "dateOfLastChange": "2026-11-16",
-  "sourceFiles": "https://jfarduino.github.io/ogcapi-common-bblocks/_sources/part1/preface/submitters/",
+  "sourceFiles": "https://geolabs.github.io/ogcapi-common-all-as-bblocks/_sources/part1/preface/submitters/",
   "validationPassed": true,
   "description": "All questions regarding this submission should be directed to the editors or the submitters:\n\n*Table \u2014 Submitters*\n\n| Name | Affiliation |\n|---|---|\n| Charles Heazel (editor) | Heazeltech |\n| David Blodgett | U.S. Geological Survey |\n| Clemens Portele | interactive instruments GmbH |\n| Sylvester Hagler | U.S. National Geospatial-Intelligence Agency |\n| Jeffrey Harrison | U.S. Army Geospatial Center |\n| Fr\u00e9d\u00e9ric Houbie | Hexagon |\n| J\u00e9r\u00f4me Jacovella-St-Louis | Ecere Corporation |\n| Chris Little | U.K. Met Office |\n| Joan Mas\u00f3 | UAB-CREAF |\n| Donald Sullivan | NASA |\n| Panagiotis (Peter) A. Vretanos | CubeWerx Inc., part of the MariaDB Corporation |\n",
   "annotatedSchema": null,
-  "gitRepository": "https://github.com/JFarduino/ogcapi-common-bblocks",
+  "gitRepository": "https://github.com/GeoLabs/ogcapi-common-all-as-bblocks",
   "gitPath": "_sources/part1/preface/submitters"
 }
